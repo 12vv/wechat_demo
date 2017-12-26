@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>微信网页版</title>
+	<link rel="stylesheet" href="../css/Style.css" type="text/css">
+	<link rel="shortcut icon" href="../images/we2.ico" type="image/x-icon" />
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/jquery.nicescroll.min.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+	<script src="../js/face.js"></script>
+</head>
+<body>
+<div class="alert">
+	<h1>Alert!</h1>
+	<p class="tip"></p>
+</div>
+<div class="login">
+<div class="llogo"><img src="../images/llogo.png"></div>
+	<div class="login_box">
+	<div class="logo">
+	<h1>WeChat</h1> beta 0.2
+	</div>
+		<div class="input">
+			<input type="text" id="name" value="username" name="username">
+	    	<input type="password" id="psw" value="password" name="password">
+	    </div>
+	    <label><input type="checkbox" name="rm" id="rm" checked="false">记住密码</label>
+	    <button class="submit" id="login">LOGIN</button>
+	</div>
+
+<div class="lang">
+	<a>微信PC版</a>
+	<span class="sep"></span>
+	<a>中文</a>
+	<span class="sep"></span>
+	<a>繁体</a>
+	<span class="sep"></span>
+	<a>English</a>
+</div>
+<div class="copyright">
+	<p>© 1998 - 2017 Tencent Inc. All Rights Reserved</p>
+</div>
+</div>
+<div class="main">
+<div class="tooltip">
+	<img src = "../images/214.png">
+	<h4 class="nickname"></h4><i class="boy"></i>
+</div>
+<audio id="au"><source src="../audio/8407.wav" type="audio/wav"></audio>
+	<div class="page">
+		<div class="leftside">
+			<div class="header">
+				<div class="post">
+					<img src="../images/214.png">
+				</div>
+				<div class="info"><span class="nickname"></span><a class="opt"><img src="../images/menu.png"></a></div>
+			</div>
+			<div class="search">
+				<i class="searchlogo"></i><input type="text" class="search_bar" value="搜索">
+			</div>
+			<div class="tab">
+				<div class="tabb" id="list1"><i class="reddot"></i><i class="icon1"></i></div>
+				<div class="tabb" id="list3"><a></a><i class="icon3"></i></div>
+			</div>
+		<div class="contacts_wrap">
+			<div class="contacts">
+				<div class="contacts1"></div>
+				<div class="contacts3"></div>
+			</div>
+		</div>	
+		<div class="menu">
+			<ul>
+				<li><a title="关闭桌面提醒"><i class="menuic nonotice"></i><span>关闭桌面提醒</span></a></li>
+				<li><a title="关闭声音"><i class="menuic nos"></i><span>关闭声音</span></a></li>
+				<li><a title="修改信息"><i class="menuic editinfo"></i>修改信息</a></li>
+				<li><a title="退出"><i class="logout menuic"></i>退出</a></li>
+			</ul>
+		</div>
+		</div>
+
+		<div class="edit">
+		<h1>修改个人信息</h1>
+			<div class="edit_inner">
+			<span>Nickname:</span>
+			<div class="blo"><input type="text" id="nickname"><span></span></div>
+			<span>Age:</span>    
+			<div class="blo"><input type="text" id="age"><span></span></div>  
+			<span>Address:</span>	
+			<div class="blo"><input type="text" id="address"><span></span></div>
+			<span>Introduction:</span>
+			<div class="blo"><input type="text" id="introduction"><span></span></div>
+			<span>Mailbox:</span>	
+			<div class="blo"><input type="text" id="mailbox"><span></span></div>
+
+			<button class="submitedit">Submit</button>
+				
+			</div>	
+		</div>
+
+		<div class="rightside">
+			<div class="title_wrap">
+				<div class="title">
+					
+				</div>
+			</div>
+		<div class="wrap">
+		 <div class="init"><i class="no"></i></div>
+			<div class="getinfo">
+				<div class="infolist">
+					<div class="profile"><img src="../images/pos.jpg"/></div>
+					<div><h4 class="nic"></h4><i class="boy"></i></div>
+					<p><span class="int"></span></p>
+					<div class="infoma">
+						<p>地区:<span class="add"></span></p>
+						<p>邮箱:<span class="mai"></span></p>
+					</div>	
+				</div>
+				<div class="sendmes">					
+					<a class="button">发消息</a>
+				</div>
+			</div>
+		 	<div class="chatbox">
+		 	<div class="mesbox_wrap">
+				<div class="mesbox"></div>
+			</div>	
+				<div class="editmes">
+					<div class="toolbar">
+						<a class="face1"></a>
+
+					</div>
+				<div class="mmpop">
+				<div class="expression">
+				<ul class="exp_hd">
+            <li class="exp_hd_item active" ng-class="{'active': index == 1}" ng-click="index = 1;">
+                <a href="javascript:;">QQ表情</a>
+            </li>
+        </ul>
+        <div class="exp_wrap">
+              <div class="exp_cont active" ng-class="{'active': index == 1}">
+                <div class="qq_face">
+                    <a title="微笑" type="qq" class="face qqface0">微笑</a> <a title="撇嘴" type="qq" class="face qqface1">撇嘴</a> <a title="色" type="qq" class="face qqface2">色</a> <a title="发呆" type="qq" class="face qqface3">发呆</a> <a title="得意" type="qq" class="face qqface4">得意</a> <a title="流泪" type="qq" class="face qqface5">流泪</a> <a title="害羞" type="qq" class="face qqface6">害羞</a> <a title="闭嘴" type="qq" class="face qqface7">闭嘴</a> <a title="睡" type="qq" class="face qqface8">睡</a> <a title="大哭" type="qq" class="face qqface9">大哭</a> <a title="尴尬" type="qq" class="face qqface10">尴尬</a> <a title="发怒" type="qq" class="face qqface11">发怒</a> <a title="调皮" type="qq" class="face qqface12">调皮</a> <a title="呲牙" type="qq" class="face qqface13">呲牙</a> <a title="惊讶" type="qq" class="face qqface14">惊讶</a> <a title="难过" type="qq" class="face qqface15">难过</a> <a title="酷" type="qq" class="face qqface16">酷</a> <a title="冷汗" type="qq" class="face qqface17">冷汗</a> <a title="抓狂" type="qq" class="face qqface18">抓狂</a> <a title="吐" type="qq" class="face qqface19">吐</a> <a title="偷笑" type="qq" class="face qqface20">偷笑</a> <a title="愉快" type="qq" class="face qqface21">愉快</a> <a title="白眼" type="qq" class="face qqface22">白眼</a> <a title="傲慢" type="qq" class="face qqface23">傲慢</a> <a title="饥饿" type="qq" class="face qqface24">饥饿</a> <a title="困" type="qq" class="face qqface25">困</a> <a title="惊恐" type="qq" class="face qqface26">惊恐</a> <a title="流汗" type="qq" class="face qqface27">流汗</a> <a title="憨笑" type="qq" class="face qqface28">憨笑</a> <a title="悠闲" type="qq" class="face qqface29">悠闲</a> <a title="奋斗" type="qq" class="face qqface30">奋斗</a> <a title="咒骂" type="qq" class="face qqface31">咒骂</a> <a title="疑问" type="qq" class="face qqface32">疑问</a> <a title="嘘" type="qq" class="face qqface33">嘘</a> <a title="晕" type="qq" class="face qqface34">晕</a> <a title="疯了" type="qq" class="face qqface35">疯了</a> <a title="衰" type="qq" class="face qqface36">衰</a> <a title="骷髅" type="qq" class="face qqface37">骷髅</a> <a title="敲打" type="qq" class="face qqface38">敲打</a> <a title="再见" type="qq" class="face qqface39">再见</a> <a title="擦汗" type="qq" class="face qqface40">擦汗</a> <a title="抠鼻" type="qq" class="face qqface41">抠鼻</a> <a title="鼓掌" type="qq" class="face qqface42">鼓掌</a> <a title="糗大了" type="qq" class="face qqface43">糗大了</a> <a title="坏笑" type="qq" class="face qqface44">坏笑</a> <a title="左哼哼" type="qq" class="face qqface45">左哼哼</a> <a title="右哼哼" type="qq" class="face qqface46">右哼哼</a> <a title="哈欠" type="qq" class="face qqface47">哈欠</a> <a title="鄙视" type="qq" class="face qqface48">鄙视</a> <a title="委屈" type="qq" class="face qqface49">委屈</a> <a title="快哭了" type="qq" class="face qqface50">快哭了</a> <a title="阴险" type="qq" class="face qqface51">阴险</a> <a title="亲亲" type="qq" class="face qqface52">亲亲</a> <a title="吓" type="qq" class="face qqface53">吓</a> <a title="可怜" type="qq" class="face qqface54">可怜</a> <a title="菜刀" type="qq" class="face qqface55">菜刀</a> <a title="西瓜" type="qq" class="face qqface56">西瓜</a> <a title="啤酒" type="qq" class="face qqface57">啤酒</a> <a title="篮球" type="qq" class="face qqface58">篮球</a> <a title="乒乓" type="qq" class="face qqface59">乒乓</a> <a title="咖啡" type="qq" class="face qqface60">咖啡</a> <a title="饭" type="qq" class="face qqface61">饭</a> <a title="猪头" type="qq" class="face qqface62">猪头</a> <a title="玫瑰" type="qq" class="face qqface63">玫瑰</a> <a title="凋谢" type="qq" class="face qqface64">凋谢</a> <a title="嘴唇" type="qq" class="face qqface65">嘴唇</a> <a title="爱心" type="qq" class="face qqface66">爱心</a> <a title="心碎" type="qq" class="face qqface67">心碎</a> <a title="蛋糕" type="qq" class="face qqface68">蛋糕</a> <a title="闪电" type="qq" class="face qqface69">闪电</a> <a title="炸弹" type="qq" class="face qqface70">炸弹</a> <a title="刀" type="qq" class="face qqface71">刀</a> <a title="足球" type="qq" class="face qqface72">足球</a> <a title="瓢虫" type="qq" class="face qqface73">瓢虫</a> <a title="便便" type="qq" class="face qqface74">便便</a> <a title="月亮" type="qq" class="face qqface75">月亮</a> <a title="太阳" type="qq" class="face qqface76">太阳</a> <a title="礼物" type="qq" class="face qqface77">礼物</a> <a title="拥抱" type="qq" class="face qqface78">拥抱</a> <a title="强" type="qq" class="face qqface79">强</a> <a title="弱" type="qq" class="face qqface80">弱</a> <a title="握手" type="qq" class="face qqface81">握手</a> <a title="胜利" type="qq" class="face qqface82">胜利</a> <a title="抱拳" type="qq" class="face qqface83">抱拳</a> <a title="勾引" type="qq" class="face qqface84">勾引</a> <a title="拳头" type="qq" class="face qqface85">拳头</a> <a title="差劲" type="qq" class="face qqface86">差劲</a> <a title="爱你" type="qq" class="face qqface87">爱你</a> <a title="NO" type="qq" class="face qqface88">NO</a> <a title="OK" type="qq" class="face qqface89">OK</a> <a title="爱情" type="qq" class="face qqface90">爱情</a> <a title="飞吻" type="qq" class="face qqface91">飞吻</a> <a title="跳跳" type="qq" class="face qqface92">跳跳</a> <a title="发抖" type="qq" class="face qqface93">发抖</a> <a title="怄火" type="qq" class="face qqface94">怄火</a> <a title="转圈" type="qq" class="face qqface95">转圈</a> <a title="磕头" type="qq" class="face qqface96">磕头</a> <a title="回头" type="qq" class="face qqface97">回头</a> <a title="跳绳" type="qq" class="face qqface98">跳绳</a> <a title="投降" type="qq" class="face qqface99">投降</a> <a title="激动" type="qq" class="face qqface100">激动</a> <a title="乱舞" type="qq" class="face qqface101">乱舞</a> <a title="献吻" type="qq" class="face qqface102">献吻</a> <a title="左太极" type="qq" class="face qqface103">左太极</a> <a title="右太极" type="qq" class="face qqface104">右太极</a>
+                </div>
+            </div>
+            </div>
+                </div>
+				</div>
+					<div class="content">
+						<textarea></textarea>
+					</div>
+					<div class="action">
+						<span>Enter键发送</span>
+						<a class="send">发送</a>
+					</div>
+				</div>
+			</div>	
+	   </div>
+		</div>
+	</div>
+		<p class="copyright"><span>© 1998 - 2017 Tencent Inc. All Rights Reserved</span><span class="sep"></span><a>帮助</a></p>
+</div>
+
+	 <script src="../js/javascript1.js" type="text/javascript"></script>
+
+</body>
+</html>
