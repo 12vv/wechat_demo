@@ -12,7 +12,8 @@
 > - views: 存放模板文件
 > - index.js: 程序主文件
 > - package.json: 存储项目名、描述、作者、依赖等等信息
->    
+>   
+以上遵循了 MVC（模型(model)－视图(view)－控制器(controller/route)） 的开发模式。
 ## 页面展示
 [成品页面展示请点击这里](https://github.com/12vv/wechat_demo/blob/master/about/page.md)
-以上遵循了 MVC（模型(model)－视图(view)－控制器(controller/route)） 的开发模式。
+
