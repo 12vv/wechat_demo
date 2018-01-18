@@ -1,0 +1,197 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mysql',
+1 verbose cli   '-save' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mysql@2.15.0
+8 silly fetchNamedPackageData mysql
+9 silly mapToRegistry name mysql
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npm.taobao.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'mysql',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'mysql',
+12 silly mapToRegistry   name: 'mysql',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npm.taobao.org/mysql
+14 verbose request uri https://registry.npm.taobao.org/mysql
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 21:56:16
+17 verbose request id 97d2e1372f18c168
+18 verbose etag "25705-tWmIhxggjc0ErhnOyqYKsdyOzWY"
+19 http request GET https://registry.npm.taobao.org/mysql
+20 http 304 https://registry.npm.taobao.org/mysql
+21 verbose headers { date: 'Wed, 17 Jan 2018 13:56:18 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-current-requests': '1',
+21 verbose headers   etag: '"25705-tWmIhxggjc0ErhnOyqYKsdyOzWY"',
+21 verbose headers   'x-readtime': '42' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Wed, 17 Jan 2018 13:56:18 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-current-requests': '1',
+22 silly get     etag: '"25705-tWmIhxggjc0ErhnOyqYKsdyOzWY"',
+22 silly get     'x-readtime': '42' } ]
+23 verbose etag https://registry.npm.taobao.org/mysql from cache
+24 verbose get saving mysql to C:\Users\Ye\AppData\Roaming\npm-cache\registry.npm.taobao.org\mysql\.cache.json
+25 verbose correctMkdir C:\Users\Ye\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule mysql@2.15.0 checking installable status
+39 silly cache add args [ 'mysql@2.15.0', null ]
+40 verbose cache add spec mysql@2.15.0
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'mysql@2.15.0',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'mysql',
+41 silly cache add   name: 'mysql',
+41 silly cache add   rawSpec: '2.15.0',
+41 silly cache add   spec: '2.15.0',
+41 silly cache add   type: 'version' }
+42 silly addNamed mysql@2.15.0
+43 verbose addNamed "2.15.0" is a plain semver version for mysql
+44 silly mapToRegistry name mysql
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npm.taobao.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'mysql',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'mysql',
+47 silly mapToRegistry   name: 'mysql',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npm.taobao.org/mysql
+49 verbose addNameVersion registry:https://registry.npm.taobao.org/mysql not in flight; fetching
+50 verbose get https://registry.npm.taobao.org/mysql not expired, no request
+51 silly cache afterAdd mysql@2.15.0
+52 verbose afterAdd C:\Users\Ye\AppData\Roaming\npm-cache\mysql\2.15.0\package\package.json not in flight; writing
+53 verbose correctMkdir C:\Users\Ye\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+54 verbose afterAdd C:\Users\Ye\AppData\Roaming\npm-cache\mysql\2.15.0\package\package.json written
+55 silly loadAllDepsIntoIdealTree Finishing
+56 silly loadIdealTree Finishing
+57 silly currentTree mychat@1.0.0
+57 silly currentTree +-- bignumber.js
+57 silly currentTree +-- bignumber.js@4.0.4
+57 silly currentTree +-- core-util-is
+57 silly currentTree +-- core-util-is@1.0.2
+57 silly currentTree +-- inherits
+57 silly currentTree +-- inherits@2.0.3
+57 silly currentTree +-- isarray
+57 silly currentTree +-- isarray@1.0.0
+57 silly currentTree +-- moment@2.19.2
+57 silly currentTree +-- mysql@2.15.0
+57 silly currentTree | +-- bignumber.js@4.0.4
+57 silly currentTree | +-- readable-stream@2.3.3
+57 silly currentTree | +-- safe-buffer@5.1.1
+57 silly currentTree | `-- sqlstring@2.3.0
+57 silly currentTree +-- process-nextick-args
+57 silly currentTree +-- process-nextick-args@1.0.7
+57 silly currentTree +-- readable-stream
+57 silly currentTree +-- readable-stream@2.3.3
+57 silly currentTree | +-- core-util-is@1.0.2
+57 silly currentTree | +-- inherits@2.0.3
+57 silly currentTree | +-- isarray@1.0.0
+57 silly currentTree | +-- process-nextick-args@1.0.7
+57 silly currentTree | +-- safe-buffer@5.1.1
+57 silly currentTree | +-- string_decoder@1.0.3
+57 silly currentTree | `-- util-deprecate@1.0.2
+57 silly currentTree +-- safe-buffer
+57 silly currentTree +-- safe-buffer@5.1.1
+57 silly currentTree +-- sqlstring
+57 silly currentTree +-- sqlstring@2.3.0
+57 silly currentTree +-- string_decoder
+57 silly currentTree +-- string_decoder@1.0.3
+57 silly currentTree | `-- safe-buffer@5.1.1
+57 silly currentTree +-- util-deprecate
+57 silly currentTree `-- util-deprecate@1.0.2
+58 silly idealTree mychat@1.0.0
+58 silly idealTree +-- bignumber.js
+58 silly idealTree +-- bignumber.js@4.0.4
+58 silly idealTree +-- core-util-is
+58 silly idealTree +-- inherits
+58 silly idealTree +-- isarray
+58 silly idealTree +-- moment@2.19.2
+58 silly idealTree +-- mysql@2.15.0
+58 silly idealTree +-- process-nextick-args
+58 silly idealTree +-- readable-stream
+58 silly idealTree +-- readable-stream@2.3.3
+58 silly idealTree | +-- core-util-is@1.0.2
+58 silly idealTree | +-- inherits@2.0.3
+58 silly idealTree | +-- isarray@1.0.0
+58 silly idealTree | +-- process-nextick-args@1.0.7
+58 silly idealTree | +-- safe-buffer@5.1.1
+58 silly idealTree | +-- string_decoder@1.0.3
+58 silly idealTree | `-- util-deprecate@1.0.2
+58 silly idealTree +-- safe-buffer
+58 silly idealTree +-- safe-buffer@5.1.1
+58 silly idealTree +-- sqlstring
+58 silly idealTree +-- sqlstring@2.3.0
+58 silly idealTree +-- string_decoder
+58 silly idealTree `-- util-deprecate
+59 silly generateActionsToTake Starting
+60 silly install generateActionsToTake
+61 warn checkPermissions Missing write access to C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\mysql
+62 silly rollbackFailedOptional Starting
+63 silly rollbackFailedOptional Finishing
+64 silly runTopLevelLifecycles Finishing
+65 silly install printInstalled
+66 warn enoent ENOENT: no such file or directory, stat 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\inherits'
+67 verbose enoent ENOENT: no such file or directory, stat 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\inherits'
+67 verbose enoent This is most likely not a problem with npm itself
+67 verbose enoent and is related to npm not being able to find a file.
+68 warn enoent ENOENT: no such file or directory, stat 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\core-util-is'
+69 verbose enoent ENOENT: no such file or directory, stat 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\core-util-is'
+69 verbose enoent This is most likely not a problem with npm itself
+69 verbose enoent and is related to npm not being able to find a file.
+70 warn enoent ENOENT: no such file or directory, stat 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\isarray'
+71 verbose enoent ENOENT: no such file or directory, stat 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\isarray'
+71 verbose enoent This is most likely not a problem with npm itself
+71 verbose enoent and is related to npm not being able to find a file.
+72 warn enoent ENOENT: no such file or directory, stat 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\process-nextick-args'
+73 verbose enoent ENOENT: no such file or directory, stat 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\process-nextick-args'
+73 verbose enoent This is most likely not a problem with npm itself
+73 verbose enoent and is related to npm not being able to find a file.
+74 warn enoent ENOENT: no such file or directory, stat 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\string_decoder'
+75 verbose enoent ENOENT: no such file or directory, stat 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\string_decoder'
+75 verbose enoent This is most likely not a problem with npm itself
+75 verbose enoent and is related to npm not being able to find a file.
+76 warn enoent ENOENT: no such file or directory, stat 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\util-deprecate'
+77 verbose enoent ENOENT: no such file or directory, stat 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\util-deprecate'
+77 verbose enoent This is most likely not a problem with npm itself
+77 verbose enoent and is related to npm not being able to find a file.
+78 verbose stack Error: ENOENT: no such file or directory, access 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\mysql'
+78 verbose stack     at Error (native)
+79 verbose cwd C:\Users\Ye\Desktop\Something\demo\project\mychat
+80 error Windows_NT 10.0.16299
+81 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mysql" "-save"
+82 error node v6.10.2
+83 error npm  v3.10.10
+84 error path C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\mysql
+85 error code ENOENT
+86 error errno -4058
+87 error syscall access
+88 error enoent ENOENT: no such file or directory, access 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\mysql'
+89 error enoent ENOENT: no such file or directory, access 'C:\Users\Ye\Desktop\Something\demo\project\mychat\node_modules\mysql'
+89 error enoent This is most likely not a problem with npm itself
+89 error enoent and is related to npm not being able to find a file.
+90 verbose exit [ -4058, true ]

@@ -17,7 +17,7 @@ router.get('/getList', checkLogin, function(req, res) {
                 console.log(sql2);
                 var result1 = mysql.query(sql2, function(result1) {
                     if (result1 != null) {
-                        // console.log(result1[0].username);
+                        console.log(result1[0].username);
                         var indata = {
                             "id": result1[0].user_id, //字符串
                             "nickname": result1[0].username, //字符串，用户的昵称

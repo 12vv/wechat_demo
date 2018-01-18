@@ -1,14 +1,15 @@
 {
-  "name": "mychat",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "moment": "^2.19.2"
-  }
+    "name": "mychat",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "private": true,
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "mysql": "2.15.0"
+    }
 }
