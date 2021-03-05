@@ -1,5 +1,6 @@
 # wechat_demo
-这是一个简单模仿网页版微信的web小项目---基于node.js和express
+这是一个简单模仿网页版微信的web小项目---基于node.js和express.
+A simple chat room mocked WeChat Web version, based on node.js & express.
 ## 开发环境
 - Node.js : '6.10.2'
 - Express : '4.16.2'
@@ -12,8 +13,9 @@
 > - views: 存放模板文件
 > - index.js: 程序主文件
 > - package.json: 存储项目名、描述、作者、依赖等等信息
->   
-以上遵循了 MVC（模型(model)－视图(view)－控制器(controller/route)） 的开发模式。
+
+遵循 MVC（模型(model)－视图(view)－控制器(controller/route)） 的开发模式。
+Based on **MVC (Model-View-Controller)**.
 ## 页面展示
-[成品页面展示请点击这里](https://github.com/12vv/wechat_demo/blob/master/about/page.md)
+[Demo Screenshots Here 成品页面展示请点击这里](https://github.com/12vv/wechat_demo/blob/master/about/page.md)
 
