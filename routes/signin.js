@@ -16,7 +16,7 @@ router.get('/login', function(req, res, next) {
     var sql = "select * from userinfo where username =" + "'" + account + "' && password = " + "'" + password + "'";
     console.log(sql);
     var result = mysql.query(sql, function(result) {
-        //登陆成功
+        
         if (result != 0) {
             console.log("result != []");
             var userid = result[0].user_id;
